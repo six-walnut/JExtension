@@ -33,4 +33,7 @@ extension UIFont {
     class func pingFangSC_Ultralight (size:CGFloat) -> UIFont {
         return  UIFont(descriptor: UIFontDescriptor(fontAttributes: [ UIFontDescriptor.AttributeName.name : "PingFangSC-Ultralight" ]), size: size)
     }
+    class func poppins_Blod (size:CGFloat) -> UIFont {
+        return  UIFont(descriptor: UIFontDescriptor(fontAttributes: [ UIFontDescriptor.AttributeName.name : "Poppins" ]), size: size)
+    }
 }
