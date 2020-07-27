@@ -43,7 +43,15 @@
 		405AB644E5E32AB19AE8697B4C0CE124 /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E601CD6877B408FADA9C25C485A4C8CA /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43BF42159F430B01CB7F94DFDA66F510 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E906E59597539202C0610CB360AA2AC /* XCTest.framework */; };
 		4660867D6E616474D6B62FAF476CCAAD /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D8299FC187621A6AD8058E3F93C10 /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		4758965324CE94C200417A8C /* UIFont+LJExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758965224CE94C200417A8C /* UIFont+LJExtension.swift */; };
+		4758965D24CE9DEE00417A8C /* Date+IS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758965524CE9DEE00417A8C /* Date+IS.swift */; };
+		4758965E24CE9DEE00417A8C /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758965624CE9DEE00417A8C /* UIFont+Extension.swift */; };
+		4758965F24CE9DEE00417A8C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758965724CE9DEE00417A8C /* UIColor+Extension.swift */; };
+		4758966024CE9DEE00417A8C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758965824CE9DEE00417A8C /* UIImage+Extension.swift */; };
+		4758966124CE9DEE00417A8C /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758965924CE9DEE00417A8C /* UIViewController+Extension.swift */; };
+		4758966224CE9DEE00417A8C /* MBProgressHUD+IS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758965A24CE9DEE00417A8C /* MBProgressHUD+IS.swift */; };
+		4758966324CE9DEE00417A8C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758965B24CE9DEE00417A8C /* String+Extension.swift */; };
+		4758966424CE9DEE00417A8C /* SVProgressHUD+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758965C24CE9DEE00417A8C /* SVProgressHUD+Extension.swift */; };
+		4758966724CE9DF600417A8C /* APP_Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758966624CE9DF600417A8C /* APP_Config.swift */; };
 		47C49D1B5D8D6AA119BE3338BC0FFDAC /* XCTestObservationCenter+CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CFC4A945886F150BBEC7B8A69EE7DD /* XCTestObservationCenter+CurrentTestCaseTracker.m */; };
 		48F15AE2F06B8500AD60C39BB45280A3 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F63DC0A95E1A202A9C1C9DDA5EBC68 /* NSBundle+CurrentTestBundle.swift */; };
 		4A1B85AEDC3DB75FC35A3F5438B0AD81 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9787D306A6A29A9314BF0B7058D3CF2 /* BeLessThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -285,7 +293,15 @@
 		46F1FE9D12DBD3A4083CFCC45ADE4B25 /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
 		473BCDE763FF82482081415DBBD88078 /* Nimble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.debug.xcconfig; sourceTree = "<group>"; };
 		474777C0A0DA1373FB5D3551B05860A1 /* Pods-JExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JExtension_Example-dummy.m"; sourceTree = "<group>"; };
-		4758965224CE94C200417A8C /* UIFont+LJExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+LJExtension.swift"; path = "JExtension/Classes/UIFont+LJExtension.swift"; sourceTree = "<group>"; };
+		4758965524CE9DEE00417A8C /* Date+IS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+IS.swift"; sourceTree = "<group>"; };
+		4758965624CE9DEE00417A8C /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		4758965724CE9DEE00417A8C /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		4758965824CE9DEE00417A8C /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		4758965924CE9DEE00417A8C /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		4758965A24CE9DEE00417A8C /* MBProgressHUD+IS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+IS.swift"; sourceTree = "<group>"; };
+		4758965B24CE9DEE00417A8C /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		4758965C24CE9DEE00417A8C /* SVProgressHUD+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SVProgressHUD+Extension.swift"; sourceTree = "<group>"; };
+		4758966624CE9DF600417A8C /* APP_Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APP_Config.swift; sourceTree = "<group>"; };
 		47CB4B01217924774D42936672B9B207 /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		48221814B80C1FF03D0DF82BED2E298F /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		48EB0EEC5FFBEFAC4DB1BDF9C97B9F50 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
@@ -567,12 +583,38 @@
 		4589505567F9B038DA23C978C63FBE2C /* JExtension */ = {
 			isa = PBXGroup;
 			children = (
-				4758965224CE94C200417A8C /* UIFont+LJExtension.swift */,
+				4758966524CE9DF600417A8C /* APPConfig */,
+				4758965424CE9DEE00417A8C /* Extension */,
 				D86EDA1BF3E98479E8420D1ACC894EB4 /* Pod */,
 				5278B9882495C73159849D975718F789 /* Support Files */,
 			);
 			name = JExtension;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		4758965424CE9DEE00417A8C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4758965524CE9DEE00417A8C /* Date+IS.swift */,
+				4758965624CE9DEE00417A8C /* UIFont+Extension.swift */,
+				4758965724CE9DEE00417A8C /* UIColor+Extension.swift */,
+				4758965824CE9DEE00417A8C /* UIImage+Extension.swift */,
+				4758965924CE9DEE00417A8C /* UIViewController+Extension.swift */,
+				4758965A24CE9DEE00417A8C /* MBProgressHUD+IS.swift */,
+				4758965B24CE9DEE00417A8C /* String+Extension.swift */,
+				4758965C24CE9DEE00417A8C /* SVProgressHUD+Extension.swift */,
+			);
+			name = Extension;
+			path = JExtension/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		4758966524CE9DF600417A8C /* APPConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4758966624CE9DF600417A8C /* APP_Config.swift */,
+			);
+			name = APPConfig;
+			path = JExtension/Classes/APPConfig;
 			sourceTree = "<group>";
 		};
 		4C1B2B6B00B8439449ABF4885F53CDE2 /* Targets Support Files */ = {
@@ -1201,7 +1243,6 @@
 				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
 				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
 				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				4758965324CE94C200417A8C /* UIFont+LJExtension.swift in Sources */,
 				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
 				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
 				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
@@ -1214,7 +1255,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4758966324CE9DEE00417A8C /* String+Extension.swift in Sources */,
+				4758966124CE9DEE00417A8C /* UIViewController+Extension.swift in Sources */,
+				4758965E24CE9DEE00417A8C /* UIFont+Extension.swift in Sources */,
 				28212AD5F291C4AC684E64185A8393FD /* JExtension-dummy.m in Sources */,
+				4758966224CE9DEE00417A8C /* MBProgressHUD+IS.swift in Sources */,
+				4758966024CE9DEE00417A8C /* UIImage+Extension.swift in Sources */,
+				4758966424CE9DEE00417A8C /* SVProgressHUD+Extension.swift in Sources */,
+				4758966724CE9DF600417A8C /* APP_Config.swift in Sources */,
+				4758965D24CE9DEE00417A8C /* Date+IS.swift in Sources */,
+				4758965F24CE9DEE00417A8C /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
