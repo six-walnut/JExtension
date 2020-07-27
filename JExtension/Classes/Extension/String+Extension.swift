@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import CommonCrypto
-//import SwiftyJSON
+//import CommonCrypto
 
 extension String{
     static let random_str_characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -22,21 +21,21 @@ extension String{
         }
         return ranStr
     }
-    ///sha1编码
-     func sha1() -> String {
-            let data = self.data(using: String.Encoding.utf8)!
-            var digest = [UInt8](repeating: 0, count: Int(CC_SHA1_DIGEST_LENGTH))
-            CC_SHA1([UInt8](data), CC_LONG(data.count), &digest)
-//            let resultBytes = Data(bytes: digest, count: Int(CC_SHA1_DIGEST_LENGTH))
-//            let resultStr = resultBytes.base64EncodedString()
-//            return resultStr
-            //无需base64输出,装换为16进制字符串输出
-            let output = NSMutableString(capacity: Int(CC_SHA1_DIGEST_LENGTH))
-            for byte in digest {
-                output.appendFormat("%02x", byte)
-            }
-            return output as String
-        }
+//    ///sha1编码
+//     func sha1() -> String {
+//            let data = self.data(using: String.Encoding.utf8)!
+//            var digest = [UInt8](repeating: 0, count: Int(CC_SHA1_DIGEST_LENGTH))
+//            CC_SHA1([UInt8](data), CC_LONG(data.count), &digest)
+////            let resultBytes = Data(bytes: digest, count: Int(CC_SHA1_DIGEST_LENGTH))
+////            let resultStr = resultBytes.base64EncodedString()
+////            return resultStr
+//            //无需base64输出,装换为16进制字符串输出
+//            let output = NSMutableString(capacity: Int(CC_SHA1_DIGEST_LENGTH))
+//            for byte in digest {
+//                output.appendFormat("%02x", byte)
+//            }
+//            return output as String
+//        }
     func replacingOccurrencesForPhoneNumber() -> String {
         var phoneNub = self
         phoneNub =  phoneNub.replacingOccurrences(of: " ", with: "")
